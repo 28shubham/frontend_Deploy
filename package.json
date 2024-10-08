@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://deployment-backend-webapp.onrender.com",
+  "proxy": "https://backend-deploy-1-8qp1.onrender.com",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.0.0",
     "@testing-library/jest-dom": "^5.14.1",
