@@ -28,7 +28,7 @@ function getFormBody(params) {
 export function loginUser(email, password) {
   console.log(email, password);
   return (dispatch) => {
-    const url = "https://backend-deploy-1-8qp1.onrender.com";
+    const url = "https://backend-deploy-1-8qp1.onrender.com/user/login";
     fetch(url, {
       method: "POST",
       credentials: "same-origin",
