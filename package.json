@@ -2,13 +2,13 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy" : "https://deployment-backend-webapp.onrender.com",
+  "proxy": "https://deployment-backend-webapp.onrender.com",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.24.0",
+    "axios": "^1.7.7",
     "jwt-decode": "^3.1.2",
     "pdfjs-dist": "^2.11.338",
     "react": "^17.0.2",
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
