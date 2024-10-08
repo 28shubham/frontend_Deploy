@@ -28,7 +28,7 @@ class App extends React.Component {
 
   handleClick = () => {
     console.log("Anuranjan is Clicked");
-    fetch("https://backend-deploy-1-8qp1.onrender.com", {
+    fetch("https://backend-deploy-1-8qp1.onrender.com/", {
       method: "GET",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
